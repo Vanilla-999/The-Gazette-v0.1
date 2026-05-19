@@ -4,51 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Gazette</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
     
-    <!-- ========================================== -->
-    <!-- КРАСИВАЯ ШАПКА                              -->
-    <!-- ========================================== -->
     <header class="main-header">
         <h1>📰 THE GAZETTE</h1>
         <p class="date">14 May 2026</p>
     </header>
     
-    <!-- ========================================== -->
-    <!-- ОСНОВНОЙ КОНТЕНТ: ДВЕ КОЛОНКИ               -->
-    <!-- ========================================== -->
     <main class="content-wrapper">
         
-        <!-- ЛЕВАЯ КОЛОНКА: НОВОСТИ -->
         <section class="left-column">
-            
-            <!-- Карточка новости 1 -->
             <article class="card">
-                <img src="https://i.pinimg.com/1200x/bf/33/a3/bf33a3ebe07399efabb9ed9ec636c63e.jpg" 
-                     alt="Антарктида" class="news-img">
+                <img src="https://i.pinimg.com/1200x/bf/33/a3/bf33a3ebe07399efabb9ed9ec636c63e.jpg" alt="Антарктида" class="news-img">
                 <div class="card-text">
                     <h2>Антарктида тает</h2>
                     <p>Вышло исследование в журнале Nature Communications: ледниковая система Антарктиды начнёт разрушаться, уровень Мирового океана может подняться почти на 58 метров. Прибрежные города и целые страны уйдут под воду, под ударом окажутся до полумиллиарда человек.</p>
                 </div>
             </article>
             
-            <!-- Карточка новости 2 -->
             <article class="card">
-                <img src="https://i.pinimg.com/736x/4c/3e/5b/4c3e5b4459bfaeb8026c962e8c4a28d7.jpg" 
-                     alt="Землетрясения" class="news-img">
+                <img src="https://i.pinimg.com/736x/4c/3e/5b/4c3e5b4459bfaeb8026c962e8c4a28d7.jpg" alt="Землетрясения" class="news-img">
                 <div class="card-text">
                     <h2>8000 землетрясений в Альпах</h2>
-                    <p>Исследователи из ETH Zurich намеренно спровоцировали тысячи землетрясений глубоко под швейцарскими Альпами. Цель — понять, что происходит в земной коре в момент движения. Спорный подход, но результаты могут изменить сейсмологию.</p>
+                    <p>Исследователи из ETH Zurich намеренно спровоцировали тысячи землетрясений глубоко под швейцарскими Альпами. Цель — понять, что происходит в земной коре в момент движения.</p>
                 </div>
             </article>
         </section>
         
-        <!-- ПРАВАЯ КОЛОНКА: АНЕКДОТЫ + СУДОКУ -->
         <aside class="right-column">
-            
-            <!-- Карточка анекдотов -->
             <div class="card jokes-card">
                 <h2>😂 Анекдоты 18+</h2>
                 <div class="joke">
@@ -62,7 +47,6 @@
                 </div>
             </div>
             
-            <!-- Карточка судоку -->
             <div class="card sudoku-card">
                 <h2>🧩 Sudoku</h2>
                 <div id="sudoku-board"></div>
@@ -70,13 +54,10 @@
         </aside>
     </main>
     
-    <!-- ========================================== -->
-    <!-- ПОДВАЛ                                     -->
-    <!-- ========================================== -->
     <footer>
         <p>© The Gazette, 2026</p>
     </footer>
     
-    <script src="script.js"></script>
+    <script src="script.js?v=3"></script>
 </body>
 </html>
